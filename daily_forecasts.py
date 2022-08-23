@@ -130,6 +130,8 @@ with open("daily_weather_forecasted_data.csv", "a", newline = '\n') as f:
     # writer.writerow([dte_3, dte_sun_rise_3, dte_sun_set_3, hours_of_sun_3, solar_irradiance_3, temp_max_3, weather_status_3, cloud_cover_3,
     #                  real_feel_temp_3, uv_index_3, pre_probability_3, rain_probability_3,
     #                  wind_speed_3, wind_direction_3])
-    writer.writerow([dte_4, dte_sun_rise_4, dte_sun_set_4, hours_of_sun_4, solar_irradiance_4, temp_max_4, weather_status_4, cloud_cover_4,
-                     real_feel_temp_4, uv_index_4, pre_probability_4, rain_probability_4,
-                     wind_speed_4, wind_direction_4])
+    writer.writerow(
+        [dte_4, dte_sun_rise_4, dte_sun_set_4, hours_of_sun_4, solar_irradiance_4, temp_max_4, weather_status_4,
+         cloud_cover_4,
+         real_feel_temp_4, uv_index_4, pre_probability_4, rain_probability_4,
+         wind_speed_4, wind_direction_4])
