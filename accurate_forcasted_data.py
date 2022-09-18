@@ -351,7 +351,7 @@ elif time_name >= '11:00:00' and time_name <= '11:59:59':
     get_date_time = datetime.strptime(date_time_2, '%Y-%m-%dT%H:%M:%S%z')
     dte_2 = get_date_time.strftime('%Y-%m-%d')
     tme_2 = get_date_time.strftime('%H')
-    solar_irradiance_2 = api_data[2]['SolarIrradiance']['Value'] + float(70.0)
+    solar_irradiance_2 = api_data[2]['SolarIrradiance']['Value']
     icon_phrase_2 = api_data[2]['IconPhrase']
     temperature_2 = api_data[2]['Temperature']['Value']
     real_feel_temperature_2 = api_data[2]['RealFeelTemperature']['Value']
@@ -370,7 +370,7 @@ elif time_name >= '11:00:00' and time_name <= '11:59:59':
     get_date_time = datetime.strptime(date_time_3, '%Y-%m-%dT%H:%M:%S%z')
     dte_3 = get_date_time.strftime('%Y-%m-%d')
     tme_3 = get_date_time.strftime('%H')
-    solar_irradiance_3 = api_data[3]['SolarIrradiance']['Value'] + float(60.0)
+    solar_irradiance_3 = api_data[3]['SolarIrradiance']['Value']
     icon_phrase_3 = api_data[3]['IconPhrase']
     temperature_3 = api_data[3]['Temperature']['Value']
     real_feel_temperature_3 = api_data[3]['RealFeelTemperature']['Value']
@@ -389,7 +389,7 @@ elif time_name >= '11:00:00' and time_name <= '11:59:59':
     get_date_time = datetime.strptime(date_time_4, '%Y-%m-%dT%H:%M:%S%z')
     dte_4 = get_date_time.strftime('%Y-%m-%d')
     tme_4 = get_date_time.strftime('%H')
-    solar_irradiance_4 = api_data[4]['SolarIrradiance']['Value'] + float(50.0)
+    solar_irradiance_4 = api_data[4]['SolarIrradiance']['Value']
     icon_phrase_4 = api_data[4]['IconPhrase']
     temperature_4 = api_data[4]['Temperature']['Value']
     real_feel_temperature_4 = api_data[4]['RealFeelTemperature']['Value']
@@ -408,7 +408,7 @@ elif time_name >= '11:00:00' and time_name <= '11:59:59':
     get_date_time = datetime.strptime(date_time_5, '%Y-%m-%dT%H:%M:%S%z')
     dte_5 = get_date_time.strftime('%Y-%m-%d')
     tme_5 = get_date_time.strftime('%H')
-    solar_irradiance_5 = api_data[5]['SolarIrradiance']['Value'] + float(40.0)
+    solar_irradiance_5 = api_data[5]['SolarIrradiance']['Value']
     icon_phrase_5 = api_data[5]['IconPhrase']
     temperature_5 = api_data[5]['Temperature']['Value']
     real_feel_temperature_5 = api_data[5]['RealFeelTemperature']['Value']
@@ -427,7 +427,7 @@ elif time_name >= '11:00:00' and time_name <= '11:59:59':
     get_date_time = datetime.strptime(date_time_6, '%Y-%m-%dT%H:%M:%S%z')
     dte_6 = get_date_time.strftime('%Y-%m-%d')
     tme_6 = get_date_time.strftime('%H')
-    solar_irradiance_6 = api_data[6]['SolarIrradiance']['Value'] + float(30.0)
+    solar_irradiance_6 = api_data[6]['SolarIrradiance']['Value']
     icon_phrase_6 = api_data[6]['IconPhrase']
     temperature_6 = api_data[6]['Temperature']['Value']
     real_feel_temperature_6 = api_data[6]['RealFeelTemperature']['Value']
@@ -446,7 +446,7 @@ elif time_name >= '11:00:00' and time_name <= '11:59:59':
     get_date_time = datetime.strptime(date_time_7, '%Y-%m-%dT%H:%M:%S%z')
     dte_7 = get_date_time.strftime('%Y-%m-%d')
     tme_7 = get_date_time.strftime('%H')
-    solar_irradiance_7 = api_data[7]['SolarIrradiance']['Value'] + float(20.0)
+    solar_irradiance_7 = api_data[7]['SolarIrradiance']['Value']
     icon_phrase_7 = api_data[7]['IconPhrase']
     temperature_7 = api_data[7]['Temperature']['Value']
     real_feel_temperature_7 = api_data[7]['RealFeelTemperature']['Value']
